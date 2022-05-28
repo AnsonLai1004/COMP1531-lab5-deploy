@@ -53,16 +53,17 @@ In this lab, you will expose your backend server application to the outside worl
     - move `ts-node` from `"devDependencies"` to `"dependencies"`.
     - update the `start` script to use `ts-node` on your server.
     - This should all be done in your `lab05_forum`'s `package.json` and repository.
-1. You will need to create another Alwaysdata account if you are tasked with deploying your major group project (only one application per account). Fortunately, we don't need to sign up again:
-    - At the bottom of the left sidebar under the CUSTOMER AREA section, select "Accounts". On the new page, click "Add Account" at the top-right corner.
-    - You can switch between accounts using the dropdown at the top of the left sidebar.
-
+1. Don't forget to update your port to use `process.env.PORT` if it exists.
 1. Before seeking help, make sure to re-check all the debugging tips from our `DEPLOY.md` and video guide.
 1. When posting on our COMP1531 Ed forums for support, please include screenshots of:
     - The output when you `ssh` into Alwaysdata, `cd` into the correct directory and manually run the server with `npm start`
     - Your full Alwaysdata configuration
     - The output of any relevant log files
     - The error message when visiting your `DEPLOYED_URL`. Don't forget to restart your application on Alwaysdata and refresh the `DEPLOYED_URL` page.
+1. You will need to create another Alwaysdata account if you are tasked with deploying your major group project (only one application per account). Fortunately, we don't need to sign up again:
+    - At the bottom of the left sidebar under the CUSTOMER AREA section, select "Accounts". On the new page, click "Add Account" at the top-right corner.
+    - You can switch between accounts using the dropdown at the top of the left sidebar.
+
 
 ## Submission
 
