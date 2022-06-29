@@ -40,7 +40,8 @@ In this lab, you will expose your backend server application to the outside worl
 
 1. Open [src/deploy.ts](src/deploy.ts). **You will need to update the `DEPLOYED_URL` constant to contain your `zID`**.
 
-1. Find the `DEPLOY.md` guide in your Major Group Project's Iteration 2 specification. Watch the linked video and follow the instructions given to deploy your `lab05_forum` application.
+1. Look through the deployment guide below. Watch the linked video and follow the instructions given to deploy your `lab05_forum` application.
+    - https://gitlab.cse.unsw.edu.au/COMP1531/22T2/deployment
 
 1. Open [src/deploy.test.ts](src/deploy.test.ts) and uncomment the given tests. Ensure that the tests pass locally.
 
@@ -54,7 +55,7 @@ In this lab, you will expose your backend server application to the outside worl
     - update the `start` script to use `ts-node` on your server.
     - This should all be done in your `lab05_forum`'s `package.json` and repository.
 1. Don't forget to update your port to use `process.env.PORT` if it exists.
-1. Before seeking help, make sure to re-check all the debugging tips from our `DEPLOY.md` and video guide.
+1. Before seeking help, make sure to re-check all the debugging tips from our deployment guide and video guide.
 1. When posting on our COMP1531 Ed forums for support, please include screenshots of:
     - The output when you `ssh` into Alwaysdata, `cd` into the correct directory and manually run the server with `npm start`
     - Your full Alwaysdata configuration
