@@ -5,7 +5,6 @@ test('Remove this test and uncomment the tests below', () => {
   expect(1 + 1).toEqual(2);
 });
 
-/*
 
 function requestEcho(message: string) {
   const res = request(
@@ -45,4 +44,4 @@ test('Deployed Server Sanity check', () => {
   expect(requestEcho('echo')).toStrictEqual({ error: expect.any(String) });
 });
 
-*/
+
