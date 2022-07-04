@@ -1,4 +1,4 @@
-const zID = 'z5555555';
+const zID = 'z5361987';
 const appName = 'forum';
 
 // The URL can be anything you want, as long as it contains your zID
